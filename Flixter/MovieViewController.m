@@ -8,6 +8,7 @@
 #import "MovieViewController.h"
 #import "TableViewCell.h"
 #import "UIImageView+AFNetworking.h"
+#import "DetailsViewController.h"
 
 @interface MovieViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) NSArray *myArray;
@@ -46,15 +47,19 @@
     [task resume];
 }
 
-/*
-#pragma mark - Navigation
+
+//#pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+//     Get the new view controller using [segue destinationViewController].
+//     Pass the selected object to the new view controller.
+    NSIndexPath *indexOfSender = [self.tableView indexPathForCell: sender];
+    NSDictionary *dataToPass = self.myArray[indexOfSender.row];
+    DetailsViewController *detailVC = [segue destinationViewController];
+    detailVC.dataDict = dataToPass;
 }
-*/
+
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TableViewCell"];
