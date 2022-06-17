@@ -22,6 +22,8 @@
 		E3042FA0285A533D008BCC7D /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3042F9F285A533D008BCC7D /* MovieViewController.m */; };
 		E3042FA3285A8A5D008BCC7D /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3042FA2285A8A5D008BCC7D /* TableViewCell.m */; };
 		E3042FA6285BC519008BCC7D /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3042FA5285BC519008BCC7D /* DetailsViewController.m */; };
+		E3042FAB285BE8AD008BCC7D /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3042FAA285BE8AD008BCC7D /* GridViewController.m */; };
+		E3042FAE285BEA2A008BCC7D /* MovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3042FAD285BEA2A008BCC7D /* MovieCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,10 @@
 		E3042FA2285A8A5D008BCC7D /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		E3042FA4285BC519008BCC7D /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		E3042FA5285BC519008BCC7D /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		E3042FA9285BE8AD008BCC7D /* GridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
+		E3042FAA285BE8AD008BCC7D /* GridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
+		E3042FAC285BEA2A008BCC7D /* MovieCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCollectionViewCell.h; sourceTree = "<group>"; };
+		E3042FAD285BEA2A008BCC7D /* MovieCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,10 @@
 				E3042F74285A46D6008BCC7D /* LaunchScreen.storyboard */,
 				E3042F77285A46D6008BCC7D /* Info.plist */,
 				E3042F78285A46D6008BCC7D /* main.m */,
+				E3042FA9285BE8AD008BCC7D /* GridViewController.h */,
+				E3042FAA285BE8AD008BCC7D /* GridViewController.m */,
+				E3042FAC285BEA2A008BCC7D /* MovieCollectionViewCell.h */,
+				E3042FAD285BEA2A008BCC7D /* MovieCollectionViewCell.m */,
 			);
 			path = Flixter;
 			sourceTree = "<group>";
@@ -427,6 +437,8 @@
 				E3042F68285A46D6008BCC7D /* AppDelegate.m in Sources */,
 				E3042F79285A46D6008BCC7D /* main.m in Sources */,
 				E3042F6B285A46D6008BCC7D /* SceneDelegate.m in Sources */,
+				E3042FAE285BEA2A008BCC7D /* MovieCollectionViewCell.m in Sources */,
+				E3042FAB285BE8AD008BCC7D /* GridViewController.m in Sources */,
 				E3042FA6285BC519008BCC7D /* DetailsViewController.m in Sources */,
 				E3042FA3285A8A5D008BCC7D /* TableViewCell.m in Sources */,
 				E3042FA0285A533D008BCC7D /* MovieViewController.m in Sources */,
