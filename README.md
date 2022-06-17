@@ -41,8 +41,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-![Alt Text](https://i.imgur.com/MDSfLtU.gif)
-
+![Alt Text](https://user-images.githubusercontent.com/71790814/174400608-c10d2fae-1854-4c75-b752-77ae097e3703.gif)
 
 ## Notes
 
