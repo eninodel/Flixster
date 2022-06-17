@@ -7,6 +7,7 @@
 
 #import "GridViewController.h"
 #import "MovieCollectionViewCell.h"
+#import "DetailsViewController.h"
 #import "UIImageView+AFNetworking.h"
 
 @interface GridViewController ()<UICollectionViewDelegate, UICollectionViewDataSource>
@@ -58,6 +59,15 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+//     Get the new view controller using [segue destinationViewController].
+//     Pass the selected object to the new view controller.
+    NSIndexPath *indexOfSender = [self.moviesCollectionView indexPathForCell: sender];
+    NSDictionary *dataToPass = self.myArray[indexOfSender.row];
+    DetailsViewController *detailVC = [segue destinationViewController];
+    detailVC.dataDict = dataToPass;
+}
+
 
 - (nonnull __kindof UICollectionViewCell *)collectionView:(nonnull UICollectionView *)collectionView cellForItemAtIndexPath:(nonnull NSIndexPath *)indexPath {
     MovieCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MovieCollectionViewCell" forIndexPath:indexPath];
