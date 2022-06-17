@@ -46,6 +46,7 @@ Here's a walkthrough of implemented user stories:
 ## Notes
 
 Describe any challenges encountered while building the app.
+I had challenges in making the serach bar because I had to go beyond the Codepath help and search into the actual developers documentation to implement it correctly. I also had a challenge passing data to the table cells at the beginning but it was easy once I understood it correctly.
 
 ## Credits
 
@@ -55,7 +56,7 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Edwin Nino Delgado]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
